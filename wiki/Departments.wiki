@@ -32,4 +32,4 @@ The Department lists should be able to be focused on a single [Locations Locatio
 ----
 
 ==View==
-The view page for departments should display counts of mapped users and assets, as well as a summary of asset values.
+The view page for departments should display counts of mapped [Users] and [Assets], as well as a summary of [Assets asset] values.
