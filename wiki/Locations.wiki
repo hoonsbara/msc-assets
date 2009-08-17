@@ -29,4 +29,4 @@ Each list item should link to the appropriate [Departments#List Department List]
 ----
 
 ==View==
-The view page for Locations should display counts of mapped [Users], [Users#LocationAdmin LocationAdmins], and [Assets], as well as a summary of [Assets asset] values.
+The view page for Locations should display counts of mapped [Users], [Users#Location_Admin Location Admins], and [Assets], as well as a summary of [Assets asset] values.
