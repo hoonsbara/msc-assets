@@ -10,8 +10,7 @@ Once the Department is created, a link to the [Categories#Assign Assign Categori
 
 ==Edit==
 *_Fields_*
- * [Location]? 
-  I'm still wondering if we should make this even possible. Is there any justification for it?
+ * [Location] _I'm still wondering if we should make this even possible. Is there any justification for it?_
  * Name
 
 
