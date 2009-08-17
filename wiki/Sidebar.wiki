@@ -1,4 +1,4 @@
-MSC Assets Wiki Menu
+Menu
  * [Departments]
  * [Locations]
  * [Users]
