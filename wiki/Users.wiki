@@ -28,7 +28,7 @@ If the user is deleted anyway, the appropriate [Assets] and [Logs] records shoul
 ----
 
 ==List==
-Only SuperAdmins should be able to view the list of Users.
+Only [#Super_Admin Super Admins] should be able to view the list of Users.
 
 _Links:_
 
