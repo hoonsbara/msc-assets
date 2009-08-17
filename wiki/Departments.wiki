@@ -1,0 +1,30 @@
+#summary This page outlines the development punchlist and notes related to Departments.
+
+==Add==
+===Fields===
+ * [Location]
+ * Name
+
+Once the Department is created, a link to the [Categories#Assign Assign Categories] page should be displayed prominently to remind admins to set them up if needed.
+
+==Edit==
+===Fields===
+ * [Location]? 
+  I'm still wondering if we should make this even possible. Is there any justification for it?
+ * Name
+
+==Delete==
+This page should check for existing [Assets] mapped to this Department, and display an error if some exist, along with a link to the appropriate mapped assets.
+
+{{{
+You cannot delete this Department until <a href='whatever'>these 5 Assets</a> are mapped to another Department.
+}}}
+
+==List==
+If the user is a [Users#SuperAdmin SuperAdmin], display a list of all Departments grouped by [Locations Location]. Else, if the user is a [Users#LocationAdmin LocationAdmin] of one or more [Locations], display a list of all Departments in the appropriate [Locations], grouped by [Locations Location]. Else, display a list of departments mapped to the user.
+
+===Precision===
+The Department lists should be able to be focused on a single [Locations Location] or a single [Categories Category].
+
+==View==
+The view page for departments should display counts of mapped users and assets, as well as a summary of asset values.
