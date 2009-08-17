@@ -7,7 +7,7 @@ _Fields:_
  * Email Address
  * Name
  * Password - _to be stored as a salted hash (sha512, or something else with hash()), of course_
- * SuperAdmin - _see below_
+ * Super Admin - _see below_
 
 ----
 
@@ -15,7 +15,7 @@ _Fields:_
 _Fields:_
  * Email Address
  * Name
- * SuperAdmin
+ * Super Admin
  * Active/Inactive
 
 ----
@@ -57,10 +57,10 @@ This page should define which [Departments] are available to the given User. A s
 
 ==Other Notes==
 
-=== SuperAdmin===
-SuperAdmin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
+===Super Admin===
+Super Admin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
 
-Only SuperAdmins should be able to create and manage Users.
+Only Super Admins should be able to create and manage Users.
 
-===LocationAdmin===
-LocationAdmin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
+===Location Admin===
+Location Admin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
