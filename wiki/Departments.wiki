@@ -19,6 +19,7 @@ _Fields:_
 
 ==Delete==
 This page should check for existing [Assets] mapped to this Department, and display an error if some exist, along with a link to the appropriate mapped [Assets].
+
 `You cannot delete this Department until <a href='whatever'>these 5 Assets</a> are mapped to another Department.`
 
 ----
