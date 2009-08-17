@@ -1,7 +1,9 @@
 #summary This page outlines the development punchlist and notes related to Departments.
 
+----
+
 ==Add==
-*_Fields_*
+_Fields:_
  * [Location]
  * Name
 Once the Department is created, a link to the [Categories#Assign Assign Categories] page should be displayed prominently to remind admins to set them up if needed.
@@ -9,7 +11,7 @@ Once the Department is created, a link to the [Categories#Assign Assign Categori
 ----
 
 ==Edit==
-*_Fields_*
+_Fields:_
  * [Location] _I'm still wondering if we should make this even possible. Is there any justification for changing a Department's Location?_
  * Name
 
@@ -23,7 +25,8 @@ This page should check for existing [Assets] mapped to this Department, and disp
 
 ==List==
 If the user is a [Users#SuperAdmin SuperAdmin], display a list of all Departments grouped by [Locations Location]. Else, if the user is a [Users#LocationAdmin LocationAdmin] of one or more [Locations], display a list of all Departments in the appropriate [Locations], grouped by [Locations Location]. Else, display a list of departments mapped to the user.
-*_Precision_*
+
+_Precision:_
 The Department lists should be able to be focused on a single [Locations Location] or a single [Categories Category].
 
 ----
