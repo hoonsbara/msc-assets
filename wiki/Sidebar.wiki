@@ -5,3 +5,4 @@ Menu
  * [Categories]
  * [Assets]
  * [Search]
+ * [Depreciation]
