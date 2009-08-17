@@ -57,10 +57,10 @@ This page should define which [Departments] are available to the given User. A s
 
 ==Other Notes==
 
-===SuperAdmin===
+=== SuperAdmin===
 SuperAdmin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
 
-Only SuperAdmins should be able to create and manage LocationAdmin Users.
+Only SuperAdmins should be able to create and manage Users.
 
 ===LocationAdmin===
 LocationAdmin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
