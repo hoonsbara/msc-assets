@@ -1,0 +1,66 @@
+#summary This page outlines the development punchlist and notes related to Users.
+
+----
+
+==Add==
+_Fields:_
+ * Email Address
+ * Name
+ * Password - _to be stored as a salted hash (sha512, or something else with hash()), of course_
+ * SuperAdmin - _see below_
+
+----
+
+==Edit==
+_Fields:_
+ * Email Address
+ * Name
+ * SuperAdmin
+ * Active/Inactive
+
+----
+
+==Delete==
+This page should suggest setting the user as Inactive rather than deleting it altogether. If any log data exists for the user, it should emphasize that deleting the user would result in bad data. We should require a confirmation checkbox before deleting a User to prevent accidental deletion.
+
+If the user is deleted anyway, the appropriate [Assets] and [Logs] records should be updated to have a user_id of 0.
+
+----
+
+==List==
+Only SuperAdmins should be able to view the list of Users.
+
+_Links:_
+
+Each list item hould link to the appropriate [Assets#List Asset] and [Categories#List Category] list.
+
+_Precision:_
+
+The Department lists should be able to be focused on a single [Locations Location] or a single [Categories Category].
+
+----
+
+==View==
+The view page for departments should display counts of mapped [Users] and [Assets], as well as a summary of [Assets asset] values.
+
+----
+
+==Forgot Password==
+This should include a form with only an email address. Upon submission, this should generate a new password and email a copy of it to the registered user with the given email. No indication of failure should be given if no email matches are made.
+
+----
+
+==Department Mappings==
+This page should define which [Departments] are available to the given User. A series of checkboxes (or prettier toggles in some form) should be sufficient.
+
+----
+
+==Other Notes==
+
+===SuperAdmin===
+SuperAdmin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
+
+Only SuperAdmins should be able to create and manage LocationAdmin Users.
+
+===LocationAdmin===
+LocationAdmin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
