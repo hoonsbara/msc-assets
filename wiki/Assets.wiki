@@ -56,25 +56,3 @@ The Asset lists should be able to be focused on a single [Departments Department
 
 ==View==
 The view page for Assets should display the full [Logs Log] for the given item, plus complete depreciation information and all Asset-specific data. The full hierarchy of the Asset's [Categories Category] should also be provided.
-
-----
-
-==Forgot Password==
-This should include a form with only an email address. Upon submission, this should generate a new password and email a copy of it to the registered user with the given email. No indication of failure should be given if no email matches are made.
-
-----
-
-==Department Mappings==
-This page should define which [Departments] are available to the given User. A series of checkboxes (or prettier toggles in some form) should be sufficient.
-
-----
-
-==Other Notes==
-
-===Super Admin===
-Super Admin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
-
-Only Super Admins should be able to create and manage Users.
-
-===Location Admin===
-Location Admin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
