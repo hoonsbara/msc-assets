@@ -10,7 +10,7 @@ This is a no-no. Do we even need to say this? All passwords should be stored as 
 SQL injection plagues many sites, and it's really pretty easy to avoid. We have a dedicated function (`db_prepare()`) that prepares a string for MySQL queries. Any time you're inserting foreign data, be it user input or even a value from a previous query, run the string though that function before interacting with the database.
 
 ===Server Side Validation===
-Client-side (JavaScript) validation is an excellent tool for making form validation intuitive and user-friendly. However, it should not be perceived as a security measure. *Always do server-side validation of user input.*
+Client-side (Javascript) validation is an excellent tool for making form validation intuitive and user-friendly. However, it should not be perceived as a security measure. *Always do server-side validation of user input.*
 
 ===Unauthorized Code Execution===
 Each server-side child-level (included) file should check for the `_MSC` definition to ensure that only an authorized entry point is executing the file. And, accordingly, any entry point needs to define `_MSC`.
