@@ -12,7 +12,7 @@ Once the Department is created, a link to the [Categories#Assign Assign Categori
 
 ==Edit==
 _Fields:_
- * [Locations Location] _I'm still wondering if we should make this even possible. Is there any justification for changing a Department's Location?_
+ * [Locations Location] - _I'm still wondering if we should make this even possible. Is there any justification for changing a Department's Location?_
  * Name
 
 ----
