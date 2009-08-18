@@ -1,0 +1,80 @@
+#summary This page outlines the development punchlist and notes related to Users.
+
+----
+
+==Add==
+_Fields:_
+ * Asset Tag
+ * Serial Number
+ * Unique Identifiers - _two available, along with custom field labels_
+ * Brand
+ * Model Number
+ * Name
+ * Description
+ * Category
+ * Department
+ * In-Service Date - _or purchase date, if in-service date not known_
+ * Cost
+ * Flat Depreciation Value - _if [Users#Super_Admin Super Admin] and Flat-Rate depreciation method for [Categories Category]
+
+_Log:_
+ * entry date
+ * entry user
+
+When the form submits, the form should load with the previous values by default (maybe two buttons, one "Add" and a default "Add and Add Another") with the unique fields (asset tag, serial, etc.) cleared. That should speed up repeated entry. It also couldn't hurt to have the unique data fields grouped together at the top of the form.
+
+It might be a nice touch to have the model number, onblur, perform an Ajax request to fill in the name/description fields based on the most recent matching model number. Adding an AutoComplete on Brand/model# would be a nice touch, too.
+
+----
+
+==Edit==
+_Fields:_
+ * All above fields
+ * Status - _sold, disposed, or current_
+ * Status date
+
+_Log:_
+ * Changes to Asset Tag or Status
+
+----
+
+==Delete==
+This page should suggest adjusting the Asset's status rather than deleting it outright. Items should only be deleted if they're accidental entry. Otherwise, assets still must be accounted for.
+
+  _Should this be restricted to admin only?_
+
+----
+
+==List==
+If the [Users User] is a [#Super_Admin Super Admin], this should list all Assets. If the [Users User] is a [#Location_Admin Location Admin], this should list all Assets mapped to a [Departments Department] in the appropriate [Locations] (maybe the [Locations] should be in a `<select>` at the top, so only one is being pulled at a time?).
+
+_Precision:_
+
+The Asset lists should be able to be focused on a single [Departments Department] or a single [Categories Category], and should be able to be further confined to a certain status.
+
+----
+
+==View==
+The view page for Assets should display the full [Logs Log] for the given item, plus complete depreciation information and all Asset-specific data. The full hierarchy of the Asset's [Categories Category] should also be provided.
+
+----
+
+==Forgot Password==
+This should include a form with only an email address. Upon submission, this should generate a new password and email a copy of it to the registered user with the given email. No indication of failure should be given if no email matches are made.
+
+----
+
+==Department Mappings==
+This page should define which [Departments] are available to the given User. A series of checkboxes (or prettier toggles in some form) should be sufficient.
+
+----
+
+==Other Notes==
+
+===Super Admin===
+Super Admin Users have the ability to govern all aspects of the application, regardless of [Departments Department] or [Locations Location]. Think of them as *root* accounts.
+
+Only Super Admins should be able to create and manage Users.
+
+===Location Admin===
+Location Admin Users have the ability to manage all aspects of their own location. Specifically, they can view/manage all [Departments] and [Categories]. They cannot, however, manage Users.
