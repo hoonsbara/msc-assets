@@ -25,6 +25,8 @@ When the form submits, the form should load with the previous values by default 
 
 It might be a nice touch to have the model number, onblur, perform an Ajax request to fill in the name/description fields based on the most recent matching model number. Adding an AutoComplete on Brand/model# would be a nice touch, too.
 
+Note that these fields will often be scanned in with a barcode reader. Most of these barcode readers emulate a keyboard typing out the barcode value and pressing enter. Obviously, the asset tag field is a premature position to submit the form, so we will need to interrupt the _Enter_ key, and instead push the focus to the next field.
+
 ----
 
 ==Edit==
