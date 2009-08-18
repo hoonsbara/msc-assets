@@ -82,7 +82,7 @@ $kids = new kids();
 
 
 ===JavaScript===
-JavaScript's formatting shouldn't differ from PHP's at all.
+Lay out your JavaScript in the same manner as PHP. The only exception is that production JavaScript on release tags should be [http://refresh-sf.com/yui/ YUI Compressed].
 
 ===CSS===
 Inline CSS should be avoided wherever possible. When required, make sure to end each declaration with a semicolon (even the final one), and separate your declarations with a space.
