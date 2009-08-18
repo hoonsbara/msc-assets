@@ -15,7 +15,7 @@ _Fields:_
  * Department
  * In-Service Date - _or purchase date, if in-service date not known_
  * Cost
- * Flat Depreciation Value - _if [Users#Super_Admin Super Admin] and Flat-Rate depreciation method for [Categories Category]
+ * [Depreciation Flat Depreciation Value] - _if [Users#Super_Admin Super Admin] and Flat-Rate depreciation method for [Categories Category]
 
 _Log:_
  * entry date
@@ -55,4 +55,4 @@ The Asset lists should be able to be focused on a single [Departments Department
 ----
 
 ==View==
-The view page for Assets should display the full [Logs Log] for the given item, plus complete depreciation information and all Asset-specific data. The full hierarchy of the Asset's [Categories Category] should also be provided.
+The view page for Assets should display the full [Logs Log] for the given item, plus the complete [Depreciation] schedule and all Asset-specific data. The full hierarchy of the Asset's [Categories Category] should also be provided.
