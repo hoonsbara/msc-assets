@@ -1,4 +1,3 @@
-
  * [Departments]
  * [Locations]
  * [Users]
@@ -6,5 +5,4 @@
  * [Assets]
  * [Search]
  * [Depreciation]
-
  * [Developers Developer Guidelines]
