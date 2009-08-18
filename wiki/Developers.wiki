@@ -3,6 +3,9 @@
 ==Security Practices==
 There are a number of good practices we'll follow to ensure proper security.
 
+===Global Variables===
+This should go without saying, but `register_globals` will not be available. Don't look for anything in `$GLOBALS`, and only use use the `global` keyword with class variables (`$debug`, `$db`, etc.) or for referencing the system configuration (`$config`). If you need to pass data around a lot, do it with function arguments or (even better, when appropriate) private variables within a class.
+
 ===Plaintext Passwords===
 This is a no-no. Do we even need to say this? All passwords should be stored as one-way hashes after being salted. We even like to use a bit of paprika every now and then. *No passwords should ever be stored in plain text.* In fact, at no point should the application store any passwords whatsoever.
 
