@@ -42,3 +42,8 @@ The Category lists should be able to be focused on a single [Locations Location]
 The view page for Categories should display counts for [Departments]/[Assets] mapped to the given Category, along with combined [Assets Asset] values.
 
 The page should be presented in a manner to communicate the context (parent/children) of the focused Category with the ability to navigate accordingly.
+
+----
+
+==Assign==
+This page should assign Categories to [Departments]. A checkbox/toggle should be sufficient for each [Departments Department].
