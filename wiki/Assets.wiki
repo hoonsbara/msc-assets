@@ -46,7 +46,7 @@ This page should suggest adjusting the Asset's status rather than deleting it ou
 ----
 
 ==List==
-If the [Users User] is a [#Super_Admin Super Admin], this should list all Assets. If the [Users User] is a [#Location_Admin Location Admin], this should list all Assets mapped to a [Departments Department] in the appropriate [Locations] (maybe the [Locations] should be in a `<select>` at the top, so only one is being pulled at a time?).
+If the [Users User] is a [Users#Super_Admin Super Admin], this should list all Assets. If the [Users User] is a [Users#Location_Admin Location Admin], this should list all Assets mapped to a [Departments Department] in the appropriate [Locations] (maybe the [Locations] should be in a `<select>` at the top, so only one is being pulled at a time?).
 
 _Precision:_
 
