@@ -19,7 +19,8 @@ This page should mention that changing the Parent also changes the children acco
 
 ==Delete==
 This page should check for existing child Categories, and display an error if some exist, along with a link to the appropriate Categories.
-`You cannot delete this Category until its child Categories are placed under a different parent.`
+
+`You cannot delete this Category until <a href='somelink'>its child Categories</a> are placed under a different parent.`
 
 It should also check for existing mapped [Assets], and display the appropriate error if some are found.
 
