@@ -17,6 +17,7 @@ Each server-side child-level (included) file should check for the `_MSC` definit
 
 `defined('_MSC') or die('Unauthorized.');`
 
+----
 
 ==Code Formatting==
 People's preferences for code format are pretty much like armpits. Most people have more than one, and most of those stink. Nonetheless, the value of having a consistent look and feel for code is essential for group-developed software. So, here are our standards...
@@ -79,6 +80,9 @@ $kids = new kids();
 ?>
 }}}
 
+
+===JavaScript===
+JavaScript's formatting shouldn't differ from PHP's at all.
 
 ===CSS===
 Inline CSS should be avoided wherever possible. When required, make sure to end each declaration with a semicolon (even the final one), and separate your declarations with a space.
