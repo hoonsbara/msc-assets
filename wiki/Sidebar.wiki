@@ -1,4 +1,3 @@
-Menu
  * [Departments]
  * [Locations]
  * [Users]
@@ -6,3 +5,5 @@ Menu
  * [Assets]
  * [Search]
  * [Depreciation]
+
+ * [DeveloperGuidelines Developer Guidelines]
