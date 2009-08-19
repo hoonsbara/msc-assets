@@ -1,0 +1,15 @@
+<?php
+
+$config = array
+(
+	'mysql' => array
+	(
+		'username' => 'assets',
+		'password' => 's3jd8mcdBec8E4G7',
+		'database' => 'assets',
+		'hostname' => 'localhost',
+	),
+  
+);
+
+?>
