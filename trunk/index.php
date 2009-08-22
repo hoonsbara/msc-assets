@@ -13,6 +13,7 @@ define('_MSC', true);
 
 /**
  * bring in the configuration
+ * @todo If the configuration file does not exist, then create one and set defaults.
  */
 require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/config.php');
 
