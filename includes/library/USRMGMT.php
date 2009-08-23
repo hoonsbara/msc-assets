@@ -1,7 +1,7 @@
 <?php
 /**
  * includes/library/USRMGMT.php
- * 
+ * $Id$
  * Various User management functions
  * 
  * @license http://opensource.org/licenses/mit-license.php MIT License
