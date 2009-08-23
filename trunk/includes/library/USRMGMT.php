@@ -1,7 +1,13 @@
 <?php
 /**
- * includes/library/USRMGMT.php
- * $Id$
+ * $Id$ 
+ * $Revision$ 
+ * $Author$ 
+ * $Date$ 
+ *  
+ * $LastChangedDate$ 
+ * $LastChangedBy$ 
+ * $LastChangedRevision$ 
  * Various User management functions
  * 
  * @license http://opensource.org/licenses/mit-license.php MIT License
