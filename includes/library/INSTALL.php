@@ -1,7 +1,7 @@
 <?php 
 /**
  * includes/library/INSTALL.php
- * 
+ * $ID$
  * check for new installation, If true, begin new install proceedures.
  * @todo proceedure to block install if not a new instance
  * 
@@ -13,7 +13,8 @@ defined('_MSC') or die('Unauthorized');
 $debug->log("Install check initiating...");
 
 
-class install {
-	
+class install
+{
+		
 }
 ?>
