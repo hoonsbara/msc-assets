@@ -7,3 +7,5 @@
  * [Assets]
  * [Search]
  * [Depreciation]
+ * [Model]
+ * [Requirements]
