@@ -1,7 +1,7 @@
 <?php
 /**
  * index.php
- * 
+ * $Id$
  * This entry point file is the homepage for the MSC Assets system.
  * 
  * @license http://opensource.org/licenses/mit-license.php MIT License
