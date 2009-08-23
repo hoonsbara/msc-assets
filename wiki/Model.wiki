@@ -1,0 +1,12 @@
+#This is somewhat of a to do and has not yet been documented completely.
+
+= msc-assets Application Workflow and Data Model =
+
+
+== Workflow Model ==
+----
+
+
+
+== Data Model ==
+----
