@@ -1,0 +1,197 @@
+<mockup version="1.0" skin="sketch" measuredW="1085" measuredH="779">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="51" y="1" w="1024" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Site%20Title%20-%20User%20List%0Ahttp%3A//assets.milestonechurch.com/users</text>
+        <value>0</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="100" y="90" w="900" h="624" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15132390</color>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::ButtonBar" x="308" y="168" w="-1" h="-1" measuredW="483" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Locations%2C%20Departments%2C%20Categories%2C%20Assets%2C%20Users</text>
+        <hrefs>Front%20Page.bmml%2CLocation%20List.bmml%2CDepartment%20List.bmml%2CCategory%20List.bmml%2CAsset%20List.bmml%2CUser%20List.bmml</hrefs>
+        <selectedIndex>5</selectedIndex>
+        <bold>true</bold>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Title" x="115" y="109" w="-1" h="-1" measuredW="126" measuredH="41" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Site%20Title</text>
+        <size>28</size>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="817" y="101" w="-1" h="-1" measuredW="168" measuredH="56" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>User%20List</text>
+        <size>40</size>
+        <align>right</align>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="834" y="228" w="-1" h="-1" measuredW="106" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ADD%20USER</text>
+        <href>User%20Add.bmml</href>
+        <icon>PlusBigIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::DataGrid" x="160" y="271" w="780" h="132" measuredW="725" measuredH="130" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hLines>false</hLines>
+        <rowHeight>26</rowHeight>
+        <borderStyle>square</borderStyle>
+        <text>Name%2C%20Email%20Address%2C%20Admin%2C%20%0AChris%20Sigler%2C%20csigler@milestonechurch.com%2C%20SuperAdmin%2C%20.................................................................................%0AJudy%20Buchholz%2C%20judy@milestonechurch.com%2C%20%5BLocations%5D%2C%20.................................................................................%0APat%20Brown%2C%20pat@milestonechurch.com%2C%20n/a%2C%20.................................................................................%0AWade%20Carroll%2C%20wade@milestonechurch.com%2C%20n/a%2C%20.................................................................................</text>
+        <verticalScrollbar>false</verticalScrollbar>
+        <color>16777215</color>
+        <hasHeader>true</hasHeader>
+        <selectedIndex>-1</selectedIndex>
+        <vLines>true</vLines>
+        <alternateRowColor>15134199</alternateRowColor>
+        <align>left</align>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SearchBox" x="892" y="169" w="-1" h="-1" measuredW="93" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="160" y="205" w="-1" h="-1" measuredW="91" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Users</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="646" y="295" w="-1" h="-1" measuredW="70" measuredH="28" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EDIT</text>
+        <href>User%20Edit.bmml</href>
+        <size>12</size>
+        <icon>WriteIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="716" y="295" w="-1" h="-1" measuredW="85" measuredH="28" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DELETE</text>
+        <href>User%20Delete.bmml</href>
+        <icon>TrashIcon%7Cxsmall</icon>
+        <state>up</state>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Button" x="571" y="295" w="-1" h="-1" measuredW="75" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>VIEW</text>
+        <href>User%20View.bmml</href>
+        <size>12</size>
+        <icon>Info2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="801" y="295" w="-1" h="-1" measuredW="132" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DEPARTMENTS</text>
+        <href>User%20Departments.bmml</href>
+        <icon>PushPinIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Button" x="646" y="323" w="-1" h="-1" measuredW="70" measuredH="28" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EDIT</text>
+        <href>User%20Edit.bmml</href>
+        <size>12</size>
+        <icon>WriteIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="716" y="323" w="-1" h="-1" measuredW="85" measuredH="28" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DELETE</text>
+        <href>User%20Delete.bmml</href>
+        <icon>TrashIcon%7Cxsmall</icon>
+        <state>up</state>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="571" y="323" w="-1" h="-1" measuredW="75" measuredH="28" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>VIEW</text>
+        <href>User%20View.bmml</href>
+        <size>12</size>
+        <icon>Info2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="801" y="323" w="-1" h="-1" measuredW="132" measuredH="28" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DEPARTMENTS</text>
+        <href>User%20Departments.bmml</href>
+        <icon>PushPinIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Button" x="646" y="349" w="-1" h="-1" measuredW="70" measuredH="28" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EDIT</text>
+        <href>User%20Edit.bmml</href>
+        <size>12</size>
+        <icon>WriteIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="716" y="349" w="-1" h="-1" measuredW="85" measuredH="28" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DELETE</text>
+        <href>User%20Delete.bmml</href>
+        <icon>TrashIcon%7Cxsmall</icon>
+        <state>up</state>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Button" x="571" y="349" w="-1" h="-1" measuredW="75" measuredH="28" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>VIEW</text>
+        <href>User%20View.bmml</href>
+        <size>12</size>
+        <icon>Info2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Button" x="801" y="349" w="-1" h="-1" measuredW="132" measuredH="28" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DEPARTMENTS</text>
+        <href>User%20Departments.bmml</href>
+        <icon>PushPinIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Button" x="646" y="375" w="-1" h="-1" measuredW="70" measuredH="28" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EDIT</text>
+        <href>User%20Edit.bmml</href>
+        <size>12</size>
+        <icon>WriteIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Button" x="716" y="375" w="-1" h="-1" measuredW="85" measuredH="28" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DELETE</text>
+        <href>User%20Delete.bmml</href>
+        <icon>TrashIcon%7Cxsmall</icon>
+        <state>up</state>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Button" x="571" y="375" w="-1" h="-1" measuredW="75" measuredH="28" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>VIEW</text>
+        <href>User%20View.bmml</href>
+        <size>12</size>
+        <icon>Info2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="801" y="375" w="-1" h="-1" measuredW="132" measuredH="28" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DEPARTMENTS</text>
+        <href>User%20Departments.bmml</href>
+        <icon>PushPinIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

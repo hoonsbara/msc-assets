@@ -1,0 +1,142 @@
+<mockup version="1.0" skin="sketch" measuredW="1085" measuredH="779">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="51" y="1" w="1024" h="768" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Site%20Title%20-%20View%20Location%20-%20Main%20Campus%0Ahttp%3A//assets.milestonechurch.com/locations/2</text>
+        <value>0</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="202" y="423" w="-1" h="-1" measuredW="44" measuredH="23" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Assets</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::FieldSet" x="187" y="388" w="506" h="170" measuredW="200" measuredH="170" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Statistics</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="202" y="461" w="-1" h="-1" measuredW="83" measuredH="23" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Departments</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="202" y="499" w="-1" h="-1" measuredW="92" measuredH="23" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Administrators</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="100" y="90" w="900" h="600" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15132390</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::ButtonBar" x="308" y="168" w="-1" h="-1" measuredW="483" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Locations%2C%20Departments%2C%20Categories%2C%20Assets%2C%20Users</text>
+        <hrefs>Front%20Page.bmml%2CLocation%20List.bmml%2CDepartment%20List.bmml%2CCategory%20List.bmml%2CAsset%20List.bmml%2CUser%20List.bmml</hrefs>
+        <selectedIndex>1</selectedIndex>
+        <bold>true</bold>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Title" x="115" y="109" w="-1" h="-1" measuredW="126" measuredH="41" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Site%20Title</text>
+        <size>28</size>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Title" x="730" y="101" w="-1" h="-1" measuredW="255" measuredH="56" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20Location</text>
+        <size>40</size>
+        <align>right</align>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::FieldSet" x="187" y="250" w="506" h="112" measuredW="200" measuredH="170" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Location%20Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::FieldSet" x="735" y="250" w="185" h="154" measuredW="200" measuredH="170" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quick%20Links</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="261" y="422" w="-1" h="-1" measuredW="115" measuredH="23" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>293%20@%20%2428%2C342.27</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="606" y="271" w="-1" h="-1" measuredW="72" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EDIT</text>
+        <href>Location%20Edit.bmml</href>
+        <icon>WriteIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="202" y="282" w="-1" h="-1" measuredW="91" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Location%20Name</text>
+        <italic>false</italic>
+        <bold>true</bold>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="187" y="212" w="-1" h="-1" measuredW="210" measuredH="23" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Locations%2C%20Main%20Campus</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="302" y="316" w="-1" h="-1" measuredW="83" measuredH="23" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Keller%2C%20Texas</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="750" y="277" w="-1" h="-1" measuredW="155" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DELETE%20LOCATION</text>
+        <href>Location%20Delete.bmml</href>
+        <icon>TrashIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="770" y="350" w="-1" h="-1" measuredW="114" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ASSET%20LIST</text>
+        <icon>HLinesIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Link" x="294" y="461" w="-1" h="-1" measuredW="12" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>8</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Link" x="302" y="498" w="-1" h="-1" measuredW="13" measuredH="23" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::SearchBox" x="892" y="169" w="-1" h="-1" measuredW="93" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="302" y="281" w="-1" h="-1" measuredW="83" measuredH="23" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Main%20Campus</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Button" x="750" y="313" w="-1" h="-1" measuredW="157" measuredH="28" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>DEPARTMENT%20LIST</text>
+        <href>Department%20List.bmml</href>
+        <icon>ListIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="222" y="316" w="-1" h="-1" measuredW="71" measuredH="23" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>City%2C%20State</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
